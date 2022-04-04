@@ -15,7 +15,6 @@ const emulator = new Emulator(options);
 
 emulator.start();
 
-
 async function quickstart(
     projectId = 'koodoo-007', // Your Google Cloud Platform project ID
     topicNameOrId = 'my-topic', // Name for the new topic to create

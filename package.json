@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "quick-start": "node run start",
+    "publish-message": "node samples/publish-message",
+    "list-topics": "node samples/list-topics",
+    "delete-topic": "node samples/delete-topic",
+    "list-subscriptions": "node samples/list-subscriptions",
+    "delete-subscription": "node samples/delete-subscription"
   },
   "keywords": [],
   "author": "",
